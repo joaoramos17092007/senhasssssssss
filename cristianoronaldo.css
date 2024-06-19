@@ -1,0 +1,67 @@
+@import url(./css/variaveis.css);
+@import url(./css/cabecalho.css);
+@import url(./css/campo\ senha.css);
+
+:root{
+    --branco: #FFF;
+    --background: #0D0011;
+    --bg-principal: #11001E;
+    --borda: #5200FF;
+    --vermelho: #E71B32;
+    --verde: #00FF85;
+    --amarelo: #FAF408;
+    --fonte: 'Permanent Marker', sans-serif;
+}
+
+body{
+    font-family: var(--fonte);
+    color: var(--branco);
+    background-color: var(--background);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 32px;
+}
+
+.subtitle{
+    font-size: 24px;
+}
+
+.container-titulo{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.container-senha {
+    background-color: var(--bg-principal);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+    margin-top: 80px;
+    background: var(--bg-principal);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+}
+
+#txtSenha {
+    background-color: var(--bg-principal);
+    border: none;
+    color: var(--branco);
+    font-size: 40px;
+    font-family: var(--fonte);
+    width: 900px;
+}
+
+#txtSenha:focus {
+    outline: none;
+}
+
+.parametro{
+    background-color: var(--bg-principal);
+    border: 2px solid var(--borda);
+}
+
